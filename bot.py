@@ -3,6 +3,10 @@ from discord.ext import commands
 from discord import app_commands
 import requests
 from datetime import datetime
+from keep_alive import keep_alive
+
+keep_alive()  # Keeps the bot alive on Render
+
 
 TOKEN = "GtjfmxZMf1ZdNw2ZsINJmTHP-_yIqpOL"
 
